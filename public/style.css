@@ -1,0 +1,153 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Exo+2:300,600'); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto+Slab:wght@700&display=swap");
+
+body {
+    font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    background: #162447;
+    color: white;
+  }
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 40px auto;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#1f4068;
+}
+
+.utilisation {
+    width: 57%;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #D16129;
+    font-size: 1.5em;
+    width: 55%;
+    float: left;
+    margin-top: 0;
+}
+
+#title {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+    color: #D16129;
+}
+
+.footer {
+    text-align: center;
+}
+
+#docs {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#docs-section {
+    padding: 75px 20px;
+}
+
+.docs {
+    text-align: center;
+}
+
+.docs #docs {
+    font-size: 1.2em;
+}
+
+.examples-section {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.examples-section:before {
+    content: '';
+    width: 0.1em;
+    height: 95%;
+    position: absolute;
+    border: solid white;
+    border-width: 0 0.1em 0 0;
+    top: 6px;
+    text-align: left;
+    left: 57%;
+}
+
+ol {
+    line-height: 1.7em;
+}
+
+li {
+    padding: 1em;
+}
+
+li a{
+    text-decoration: none;
+    color: #D16129;
+    transition: all ease-in-out 0.5s;
+}
+li a:hover{
+    color:rgb(136, 39, 39);
+    text-decoration: none;
+}
+
+hr {
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+code {
+    font-family: Roboto Mono,monospace;
+    font-size: 86%;
+    background-color:#d0d0d5;
+    color: #2a2a40;
+    padding: 2px 4px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    body {
+        overflow: auto;
+    }
+
+    .footer {
+        position: relative;
+        text-align: center;
+        padding-bottom: 25px;
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+    #docs-section{
+        padding:30px 20px;
+        padding-bottom: 0;
+    }
+    #examples-section{
+        padding:30px 20px;
+        padding-bottom: 50px;
+    }
+}
